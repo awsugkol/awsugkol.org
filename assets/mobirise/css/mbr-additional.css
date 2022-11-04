@@ -1863,6 +1863,116 @@ a:hover {
   height: 100%;
   object-fit: cover;
 }
+.cid-tmfgKYaiOS {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #ffffff;
+}
+.cid-tmfgKYaiOS .row {
+  padding: 0 1rem;
+}
+@media (max-width: 992px) {
+  .cid-tmfgKYaiOS .row {
+    padding: 0 12px;
+  }
+}
+.cid-tmfgKYaiOS .card {
+  padding: 0;
+  height: 380px;
+  position: relative;
+  border-radius: 0;
+  overflow: hidden;
+}
+@media (max-width: 992px) {
+  .cid-tmfgKYaiOS .card {
+    height: 280px;
+  }
+}
+.cid-tmfgKYaiOS .card img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+  padding: 0;
+  transform: scale(1, 1);
+  transition: all .4s ease;
+}
+.cid-tmfgKYaiOS .card:hover img {
+  transform: scale(1.1, 1.1);
+}
+.cid-tmfgKYaiOS .card-link {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+  transition: all .4s ease;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cid-tmfgKYaiOS .card-overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #20232a;
+  opacity: .3;
+  z-index: 1;
+  pointer-events: none;
+}
+.cid-tmfgKYaiOS .card-wrapper {
+  padding: 44px 34px;
+}
+.cid-tmfgKYaiOS .card-wrapper .mbr-section-title {
+  margin: 0;
+  pointer-events: visible;
+}
+.cid-tmfgKYaiOS .card-wrapper .mbr-text {
+  margin: 7px 0 0 0;
+  pointer-events: visible;
+  letter-spacing: 1px;
+}
+.cid-tmfgKYaiOS .mbr-section-title {
+  color: #FFFFFF;
+  text-align: center;
+}
+.cid-tmfgKYaiOS .mbr-text {
+  color: #FFFFFF;
+  text-align: center;
+}
+.cid-tmfb48NUzC {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #1c1c25;
+}
+.cid-tmfb48NUzC .mbr-text {
+  color: #777d74;
+}
+.cid-tmfb48NUzC .mbr-iconfont {
+  color: #ffffff;
+  font-size: 1rem;
+}
+.cid-tmfb48NUzC .icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #777d74;
+  border-radius: 50%;
+  display: flex;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s;
+  margin: 0 0.5rem;
+}
+.cid-tmfb48NUzC .icon-wrapper:hover {
+  background: #72dfe9;
+}
+.cid-tmfb48NUzC .wrapper {
+  display: flex;
+  justify-content: center;
+}
 .cid-taHKOAC06v {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1874,4 +1984,7 @@ a:hover {
 }
 .cid-taHKOAC06v .mbr-text {
   color: #FFFFFF;
+}
+.cid-taHKOAC06v .media-container-row .mbr-text {
+  text-align: center;
 }
